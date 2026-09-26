@@ -18,6 +18,11 @@ Le nombre de genres associés à un film et sa décennie de sortie sont des sign
 
 - `analysis.R` — script complet, exécutable de bout en bout
 - `report.pdf` — rapport détaillant la méthodologie et l'interprétation des résultats
+- `reporting/power_query.m` — script Power Query (M) pour Power BI/Excel
+
+## Reporting
+
+**Power Query :** `reporting/power_query.m` reproduit le nettoyage des sections 1-2 d'`analysis.R` (filtrage durée/année, pays principal, comptage genres/studios/acteurs, décennie) pour charger `final_movies_dataset.csv` dans Power BI/Excel. Le dataset source n'est pas versionné dans ce dépôt, donc pas de dashboard en ligne pour l'instant — le script est prêt à tourner dès que le CSV est ajouté.
 
 ## Stack
 
